@@ -1,8 +1,11 @@
-# Questions
-Labeled Screenshot of wireshark window
-1. 1 SS without filter in wireshark
-1. 1 SS with DNS filter
-1. Expand description part of DNS
-1. 1 with udp port filter of 53
+# Computer Network Lab - 2
 
-Write down conclusion of lab
+Take the snipshop of wireshark window as given below:
+
+**1.** [Screenshot of wireshark screen without any filter](1.png)
+
+**1.** [Screenshot of wireshark screen with DNS filter](2.png)
+
+**1.** [Screenshot of wireshark screen with description of DNS](3.png)
+
+**1.** [Screenshot of wireshark screen with udp port filter  53](3.png)
