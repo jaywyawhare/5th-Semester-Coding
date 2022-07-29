@@ -15,7 +15,6 @@ int halfN_method(int n)
         if (n % i == 0)
         {
             flag = 1;
-            printf("%d is not a prime number.\n", n);
             break;
         }
     }
@@ -33,7 +32,6 @@ int fullN_method(int n)
         if (n % i == 0)
         {
             flag = 1;
-            printf("%d is not prime number.\n", n);
             break;
         }
     }
