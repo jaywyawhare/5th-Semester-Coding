@@ -25,10 +25,9 @@ This repository contains the solutions to the lab assignments for the subjects C
 | **Lab Number** | **Exercise Type** | **Question Set** |
 |:---:|---|---|
 | **[Lab 1](DAA%20Lab/Lab%201)** | 1. [Home Exercise](DAA%20Lab/Lab%201/Home%20Exercise)<br> 2. [Lab Exercise](DAA%20Lab/Lab%201/Lab%20Exercise)<br> 3. [Round Exercise](DAA%20Lab/Lab%201/Round%20Exercise) | 1. [Questions](DAA%20Lab/Lab%201/Home%20Exercise/questions.md)<br> 2. [Questions](DAA%20Lab/Lab%201/Lab%20Exercise/questions.md)<br> 3. [Questions](DAA%20Lab/Lab%201/Round%20Exercise/questions.md) |
-| **[Lab 2](DAA%20Lab/Lab%202/)** | || [Questions](DAA%20Lab/Lab%202/questions.md)  |
+| **[Lab 2](DAA%20Lab/Lab%202/)** | [Lab Exercise](DAA%20Lab/Lab%202/Lab%20Exercise) |[Questions](DAA%20Lab/Lab%202/Lab%20Exercise/questions.md)  |
 # How to clone the repository
 
 ```bash
 > git clone https://github.com/jaywyawhare/Fifth-Semester
 ```
-
