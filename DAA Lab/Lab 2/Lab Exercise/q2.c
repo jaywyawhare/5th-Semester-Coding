@@ -80,6 +80,7 @@ int main()
     printf("1. Euclid's algorithm\n");
     printf("2. Consecutive integer checking algorithm\n");
     printf("3. Middle school procedure\n");
+    printf("4. All three algorithms\n");
     printf("Enter your choice: ");
     int choice;
     scanf("%d", &choice);
@@ -97,6 +98,13 @@ int main()
         gcd = primeFactorisation_method(number1, number2);
         printf("The GCD of %d and %d is %d\n", number1, number2, gcd);
         break;
+    case 4:
+        printf("The GCD using Euclid's algorithm:\n");
+        printf("The GCD of %d and %d is %d\n", number1, number2, Euclid(number1, number2));
+        printf("The GCD using Consecutive integer checking algorithm:\n");
+        printf("The GCD of %d and %d is %d\n", number1, number2, Consecutive_integer_checking(number1, number2));
+        printf("The GCD using Middle school procedure:\n");
+        printf("The GCD of %d and %d is %d\n", number1, number2, primeFactorisation_method(number1, number2));
     default:
         printf("Invalid choice.\n");
         break;

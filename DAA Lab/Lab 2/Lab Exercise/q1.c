@@ -53,8 +53,6 @@ int factorial_Method(int n)
     {
         factm *= i;
     }
-
-    // add 1 to (n-1)!
     int factn = factm + 1;
     if (factn % n == 0)
     {
