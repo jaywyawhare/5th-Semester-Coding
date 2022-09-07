@@ -25,7 +25,7 @@ int mod(int a, int b)
 
 int main()
 {
-    int a, b, c;
+    int a, b;
     char op;
     printf("Enter two numbers and operator: ");
     scanf("%d %d %c", &a, &b, &op);

@@ -1,0 +1,1 @@
+Write a program that uses a divide-and-conquer algorithm/user defined function for the exponentiation problem of computing a^n where a > 0 and n is a positive integer. How does this algorithm compare with the brute-force algorithm in terms of number of multiplications made by both algorithms.
