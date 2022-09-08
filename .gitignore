@@ -1,1 +1,8 @@
-CN Lab/Class Test - 1 /socker-exam/q1/bin/.gitignore
+*.gitignore
+*.out
+*.o
+*.log
+tasks.json
+Temp/*
+main
+.vscode/*
