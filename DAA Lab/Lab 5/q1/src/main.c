@@ -1,10 +1,13 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 #include "my_functions.h"
 
 int main()
 {
+    clock_t start, end;
     int size;
-    printf("Enter the size of array :");
+    printf("Enter the size of array : ");
     scanf("%d", &size);
     int temp = size + 5;
     int arr[size];
@@ -17,7 +20,15 @@ int main()
     {
         printf("%d ", arr[i]);
     }
-
-    // quickSort(arr, size);
+    start = clock();
+    quickSort(arr, size);
+    end = clock();
+    printf("\nThe sorted array is: ");
+    for (int i = 0; i < size; i++)
+    {
+        printf("%d ", arr[i]);
+    }
+    double time = (double)(end - start) / CLOCKS_PER_SEC;
+    printf("\nTime taken by quick sort is %f", time);
     return 0;
 }

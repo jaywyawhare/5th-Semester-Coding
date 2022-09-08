@@ -1,34 +1,26 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 void quickSort(int *ptr, int size)
 {
     if (size <= 1)
     {
         return;
     }
-    int pivot = ptr[size / 2];
+    int pivot = ptr[size - 1];
     int i = 0;
-    int j = size - 1;
-    while (i <= j)
+    int j = 0;
+    while (j < size - 1)
     {
-        while (ptr[i] < pivot)
-        {
-            i++;
-        }
-        while (ptr[j] > pivot)
-        {
-            j--;
-        }
-        if (i <= j)
+        if (ptr[j] < pivot)
         {
             int temp = ptr[i];
             ptr[i] = ptr[j];
             ptr[j] = temp;
             i++;
-            j--;
         }
+        j++;
     }
+    int temp = ptr[i];
+    ptr[i] = ptr[size - 1];
+    ptr[size - 1] = temp;
     quickSort(ptr, i);
-    quickSort(ptr + i, size - i);
+    quickSort(ptr + i + 1, size - i - 1);
 }
