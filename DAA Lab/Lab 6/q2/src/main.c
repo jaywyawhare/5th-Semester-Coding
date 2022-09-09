@@ -9,16 +9,12 @@ int main()
     int size;
     printf("Enter the size of array : ");
     scanf("%d", &size);
-    int temp = size + 5;
     int arr[size];
-    for (int i = 0; i < size; i++)
-    {
-        arr[i] = rand() % temp;
-    }
+    randomFill(arr, size);
     printf("The array is ");
     printArray(arr, size);
     start = clock();
-    heapSort(arr, size);
+    buildMinHeap(arr, size);
     end = clock();
     printf("\nThe sorted array is: ");
     printArray(arr, size);

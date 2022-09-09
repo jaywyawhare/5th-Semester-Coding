@@ -1,6 +1,6 @@
 // type func(param);
 
-void heapSort(int *ptr, int size);
+void randomFill(int *ptr, int size);
 
 void printArray(int *ptr, int size);
 
