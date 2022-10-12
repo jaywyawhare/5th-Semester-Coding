@@ -1,0 +1,2 @@
+Design a simple network assign IP addr and test the connectivity using cisco packet tracer
+Design more than one LAN and connect them using routers and test the connectivity. 
