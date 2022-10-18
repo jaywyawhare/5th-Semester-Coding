@@ -19,6 +19,11 @@ This repository contains the solutions to the lab assignments for the subjects C
 |:---:|---|
 | **[Lab 1](CN%20Lab/Lab%201)** | [Questions](CN%20Lab/Lab%201/questions.md) |
 | **[Lab 2](CN%20Lab/Lab%202/)** | [Questions](CN%20Lab/Lab%202/questions.md)  |
+| **[Lab 3](CN%20Lab/Lab%203/)** | [Questions](CN%20Lab/Lab%203/questions.md)  |
+| **[Lab 4](CN%20Lab/Lab%204/)** | [Questions](CN%20Lab/Lab%204/questions.md)  |
+| **[Lab 5](CN%20Lab/Lab%205/)** | [Questions](CN%20Lab/Lab%205/questions.md)  |
+| **[Lab 6](CN%20Lab/Lab%206/)** | [Questions](CN%20Lab/Lab%206/questions.md)  |
+| **[Lab 7](CN%20Lab/Lab%207/)** | [Questions](CN%20Lab/Lab%207/questions.md)  |
 
 ### [Design and Analysis of Algorithms](design-and-analysis-of-algorithms-laboratory)
 
