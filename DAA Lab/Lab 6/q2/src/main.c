@@ -7,7 +7,7 @@ int main()
 {
     clock_t start, end;
     int size;
-    printf("Enter the size of array : ");
+    printf("\nEnter the size of array : ");
     scanf("%d", &size);
     int arr[size];
     randomFill(arr, size);
@@ -22,3 +22,6 @@ int main()
     printf("\nTime taken by heap sort is %f", time);
     return 0;
 }
+
+
+

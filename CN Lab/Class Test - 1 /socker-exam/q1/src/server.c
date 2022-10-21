@@ -42,7 +42,6 @@ int main()
     struct sockaddr_in client_address;
     socklen_t client_len;
     client_len = sizeof(client_address);
-
     int arr[5];
     recvfrom(server_socket, &arr, sizeof(arr), 0, (struct sockaddr *)&client_address, &client_len);
     bubbleSort(arr, 5);
