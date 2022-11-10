@@ -1,0 +1,1 @@
+Write a program to find the Longest palindromic subsequence (Hint: Subsequence is obtained by deleting some of the characters from a string without reordering the remaining characters, which is also a palindrome).

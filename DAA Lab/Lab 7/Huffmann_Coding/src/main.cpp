@@ -192,12 +192,11 @@ int main()
                             break;
                         }
                         else
-                            -
-                            {
-                                cout << head->data << " ";
-                                head = tree(arr, freq, size);
-                                i--;
-                            }
+                        {
+                            cout << head->data << " ";
+                            head = tree(arr, freq, size);
+                            i--;
+                        }
                     }
                     else
                     {
