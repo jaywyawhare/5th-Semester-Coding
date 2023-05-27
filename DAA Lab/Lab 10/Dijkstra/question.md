@@ -1,0 +1,1 @@
+From a given vertex in a weighted connected graph, Write a program to find shortest paths to other vertices using Dijkstra's algorithm. Draw simple, connected weighted graph with 8 vertices and 16 edges, each with unique edge weight. Identify one vertex as a start vertex and obtain shortest path using Dijkstra's algorithm.

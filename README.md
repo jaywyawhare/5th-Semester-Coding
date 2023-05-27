@@ -1,33 +1,53 @@
-# README
+# 5th Semester Coding
 
-This repository contains the solutions to the lab assignments for the subjects Computer Network and Design and analysis of algorithms.
+Welcome to the 5th Semester Coding repository! This repository contains the code for my 5th semester coursework, including assignments, lab work, and projects for various subjects. The semester focuses on topics such as Computer Networks (CN) and Design and Analysis of Algorithms (DAA).
 
+Each subject has its own directory, further divided into relevant topics and concepts. The root directory contains this README file and the license information.
 
-# Table Of Content
+## Subjects
 
+The 5th semester coursework covers the following subjects:
 
-- [README](#readme)
-- [Table Of Content](#table-of-content)
-    - [Computer Network](#computer-network)
-    - [Design and Analysis of Algorithms](#design-and-analysis-of-algorithms)
-- [How to clone the repository](#how-to-clone-the-repository)
-    
+- Computer Networks (CN) Lab
+  The CN Lab directory contains code and resources related to the Computer Networks course. It includes exercises and projects on topics such as TCP/IP, network protocols, Wireshark, client-server architecture, DNS, DHCP, and HTTP.
 
-### [Computer Network](computer-networks-laboratory)
+- Design and Analysis of Algorithms (DAA) Lab
+  The DAA Lab directory contains code and resources related to the Design and Analysis of Algorithms course. It includes exercises and projects on algorithms, data structures, dynamic programming, sorting algorithms, graph algorithms, the knapsack problem, Huffman coding, the longest common subsequence (LCS), the Bellman-Ford algorithm, and Dijkstra's algorithm.
 
-| **Lab Number** | **Question Set** |
-|:---:|---|
-| **[Lab 1](CN%20Lab/Lab%201)** | [Questions](CN%20Lab/Lab%201/questions.md) |
-| **[Lab 2](CN%20Lab/Lab%202/)** | [Questions](CN%20Lab/Lab%202/questions.md)  |
+## Tags
 
-### [Design and Analysis of Algorithms](design-and-analysis-of-algorithms-laboratory)
+The following tags are associated with the coursework in the 5th semester:
 
-| **Lab Number** | **Exercise Type** | **Question Set** |
-|:---:|---|---|
-| **[Lab 1](DAA%20Lab/Lab%201)** | 1. [Home Exercise](DAA%20Lab/Lab%201/Home%20Exercise)<br> 2. [Lab Exercise](DAA%20Lab/Lab%201/Lab%20Exercise)<br> 3. [Round Exercise](DAA%20Lab/Lab%201/Round%20Exercise) | 1. [Questions](DAA%20Lab/Lab%201/Home%20Exercise/questions.md)<br> 2. [Questions](DAA%20Lab/Lab%201/Lab%20Exercise/questions.md)<br> 3. [Questions](DAA%20Lab/Lab%201/Round%20Exercise/questions.md) |
-| **[Lab 2](DAA%20Lab/Lab%202/)** | [Lab Exercise](DAA%20Lab/Lab%202/Lab%20Exercise) |[Questions](DAA%20Lab/Lab%202/Lab%20Exercise/questions.md)  |
-# How to clone the repository
+<b> Computer Networks (CN) Lab: </b>
 
-```bash
-> git clone https://github.com/jaywyawhare/Fifth-Semester
-```
+- TCP/IP
+- Network protocols
+- Wireshark
+- Client-server architecture
+- DNS
+- DHCP
+- HTTP
+
+<b> Design and Analysis of Algorithms (DAA) Lab: </b>
+
+- Algorithms
+- Data structures
+- Dynamic programming
+- Sorting algorithms
+- Graph algorithms
+- Knapsack problem
+- Huffman coding
+- Longest common subsequence (LCS)
+- Bellman-Ford algorithm
+- Dijkstra's algorithm
+
+These tags can help you quickly identify and navigate through the topics covered in the repository.
+
+## Contributing
+
+Contributions to this repository are welcome! If you would like to contribute, please follow these guidelines:
+
+1. Fork the repository and create a new branch.
+1. Make your changes and ensure they are well-documented.
+1. Submit a pull request, clearly describing the changes you have made.
+1. Please adhere to the code of conduct and respect the guidelines for contributing.

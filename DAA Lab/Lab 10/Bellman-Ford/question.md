@@ -1,0 +1,1 @@
+From a given vertex in a weighted connected graph, Write a program to find shortest paths to other vertices using Bellman-Ford algorithm. Draw simple, connected weighted graph with 10 vertices and 18 edges, such that graph contains minimum weight cycle with at least 4 edges. Show that the Bellman-Ford algorithm find this cycle.
